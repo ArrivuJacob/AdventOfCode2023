@@ -1,7 +1,7 @@
 defmodule Day01 do
 
   def puzzle1 do
-    path = "assets/input.txt"
+    path = "../../Assets/day01-input.txt"
     {:ok, input} = File.read(path)
     input
     |> String.split("\n", trim: true)
@@ -11,7 +11,7 @@ defmodule Day01 do
   end
 
   def puzzle2 do
-    path = "assets/input.txt"
+    path = "../../Assets/day01-input.txt"
     {:ok, input} = File.read(path)
     input
     |> String.split("\n", trim: true)
